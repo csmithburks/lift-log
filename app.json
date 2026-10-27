@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Lift Log",
+    "slug": "lift-log",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0E0F12",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.liftlog.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "Lift Log",
+      "shortName": "Lift Log",
+      "backgroundColor": "#0E0F12",
+      "themeColor": "#0E0F12"
+    },
+    "plugins": [
+      "expo-status-bar",
+      "expo-sharing"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4318ec2b-0195-4506-b8a3-f06217eace0d"
+      }
+    }
+  }
+}
